@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.theme-dark {
+  --primary-dark: 153, 238, 253;
+  --primary-main: 0, 213, 250;
+  --primary-light: 0, 53, 63;
+
+  --neutral-dark: 224, 224, 224;
+  --neutral-main: 194, 194, 194;
+  --neutral-mediumMain: 163, 163, 163;
+  --neutral-medium: 133, 133, 133;
+  --neutral-light: 51, 51, 51;
+
+  --background-default: 10, 10, 10;
+  --background-alt: 26, 26, 26;
+}
+
+.theme-light {
+  --primary-dark: 54, 194, 206;
+  --primary-main: 0, 213, 250;
+  --primary-light: 230, 251, 255;
+
+  --neutral-dark: 51, 51, 51;
+  --neutral-main: 102, 102, 102;
+  --neutral-mediumMain: 133, 133, 133;
+  --neutral-medium: 163, 163, 163;
+  --neutral-light: 240, 240, 240;
+
+  --background-default: 246, 246, 246;
+  --background-alt: 195, 225, 231;
+}
